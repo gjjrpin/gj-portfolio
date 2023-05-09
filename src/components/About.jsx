@@ -1,4 +1,5 @@
 import React from "react";
+import Profile from "../assets/profile.png";
 
 const About = () => {
   return (
@@ -13,12 +14,14 @@ const About = () => {
           <div></div>
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
-          <div className="sm:text-right text-4xl font-bold">
-            <p>
-              Hi! I'm GJ, nice to meet you. Feel free to take a look around!
-            </p>
+          <div className="flex justify-center items-center w-50 h-50 p-[3rem]">
+            <img
+              src={Profile}
+              alt="profile"
+              className="rounded-full w-full h-full object-cover"
+            />
           </div>
-          <div>
+          <div className="flex items-center leading-loose">
             <p>
               As a passionate web developer, I stay ahead of emerging
               technologies to create innovative web applications that meet the

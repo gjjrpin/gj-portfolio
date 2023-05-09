@@ -11,39 +11,64 @@ const Navbar = () => {
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#192841] text-gray-300">
-      <div>
+      <Link to="home" smooth={true} duration={500}>
         <img
           src={Logo}
-          alt="Logo Image"
+          alt="Logo"
           style={{ width: "60px" }}
           className="cursor-pointer"
         />
-      </div>
+      </Link>
 
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          <Link to="home" smooth={true} duration={500}>
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            className="py-2 hover:border-b-2 border-[#D49902]"
+          >
             Home
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true} duration={500}>
+          <Link
+            to="about"
+            smooth={true}
+            duration={500}
+            className="py-2 hover:border-b-2 border-[#D49902]"
+          >
             About
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link
+            to="skills"
+            smooth={true}
+            duration={500}
+            className="py-2 hover:border-b-2 border-[#D49902]"
+          >
             Skills
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true} duration={500}>
+          <Link
+            to="work"
+            smooth={true}
+            duration={500}
+            className="py-2 hover:border-b-2 border-[#D49902]"
+          >
             Work
           </Link>
         </li>
         <li>
-          <Link to="contact" smooth={true} duration={500}>
+          <Link
+            to="contact"
+            smooth={true}
+            duration={500}
+            className="py-2 hover:border-b-2 border-[#D49902]"
+          >
             Contact
           </Link>
         </li>
