@@ -3,11 +3,11 @@ import Profile from "../assets/profile.png";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-[#192841] text-gray-300">
+    <div name="about" className="w-full h-screen bg-[#282c33] text-gray-300">
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
           <div className="sm:text-right pb-8 pl-4">
-            <p className="text-4xl font-bold inline border-b-4 border-[#D49902]">
+            <p className="text-4xl font-bold inline border-b-4 border-[#c470db]">
               About
             </p>
           </div>
@@ -23,11 +23,12 @@ const About = () => {
           </div>
           <div className="flex items-center leading-loose">
             <p>
-              As a passionate web developer, I stay ahead of emerging
-              technologies to create innovative web applications that meet the
-              needs of users. My commitment to staying up-to-date with emerging
-              AI technologies and understanding diverse perspectives ensures
-              that my work is human-centered and cutting-edge.
+              Driven by a background in Software Development and a passion for
+              Cybersecurity, I’ve transitioned into a Senior Fraud Analyst role
+              where I tackle emerging threats with a tech-first approach.
+              Staying ahead of advancements in AI and cybersecurity allows me to
+              create innovative, human-centered strategies to detect and prevent
+              fraud effectively.
             </p>
           </div>
         </div>

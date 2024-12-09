@@ -7,23 +7,28 @@ const Home = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div name="home" className="w-full h-screen bg-[#192841]">
+    <div name="home" className="w-full h-screen bg-[#282c33]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="sm:text-3xl text-[#0397B2]">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-6xl font-bold text-[#F4B324]">
-          GJ Pineda
-        </h1>
-        <h2 className="text-4xl sm:text-6xl font-bold text-[#FFFFFF]">
-          I'm a Full Stack Developer
-        </h2>
+        <div className="flex">
+          <p className="sm:text-3xl text-[#ffffff]">GJ is a</p>
+          <h1 className="text-4xl sm:text-3xl text-[#c470db]">
+            Senior Fraud Analyst
+          </h1>
+        </div>
+        <div>
+          <h1 className="sm:text-3xl text-[#ffffff]">and</h1>
+          <h1 className="text-4xl sm:text-3xl text-[#c470db]">
+            a Cyber Security enthusiast
+          </h1>
+        </div>
         <p className="text-[#FFFFFF] py-4 max-w-[700px] leading-loose">
-          with a passion for creating human-centered, responsive designs that
-          make the web more accessible and intuitive.
+          I prevent and investigate fraud, enhancing client trust through
+          problem-solving and communication.
         </p>
         <div>
           <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#0397B2] hover:border-[#0397B2]">
+            <button className="text-white group border-2 px-6 py-3 my-2 flex items-center border-[#c470db] hover:bg-[rgba(196,112,219,0.15)] hover:border-[#c470db]">
               View Work
               <span className="group-hover:rotate-90 duration-300">
                 <HiArrowNarrowRight className="ml-3" />
