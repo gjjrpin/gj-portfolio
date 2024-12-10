@@ -1,5 +1,6 @@
 import React from "react";
 import { data } from "../data/data.js";
+import Hashtag from "./Hashtag";
 
 const Work = () => {
   // projects file
@@ -7,13 +8,13 @@ const Work = () => {
   //setProject(data);
 
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#282c33]">
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+    <div name="work" className="w-full md:h-screen text-gray-300">
+      <div className="flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#c470db]">
-            Work
+          <p className="text-4xl font-bold inline-flex items-center">
+            <Hashtag />
+            work<span class="block w-56 h-[2px] bg-[#c470db] mx-2"></span>
           </p>
-          <p className="py-6">// Check out some of my recent work</p>
         </div>
 
         {/* container for projects */}

@@ -5,8 +5,8 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="bg-[#282c33]">
-      <ul className="md:hidden list-none flex justify-evenly p-4 border-t  border-[#D3D3D3] text-[#FFFFFF]">
+    <div>
+      {/*       <ul className="md:hidden list-none flex justify-evenly p-4 border-t  border-[#D3D3D3] text-[#FFFFFF]">
         <li className="p-0">
           <a href="https://linkedin.com/in/gj-pineda">
             <FaLinkedin size={25} />
@@ -27,7 +27,7 @@ const Footer = () => {
             <BsFillPersonLinesFill size={25} />
           </a>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 };
