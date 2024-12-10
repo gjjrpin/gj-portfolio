@@ -23,11 +23,6 @@ const Navbar = () => {
       {/* menu */}
       <ul className="hidden md:flex">
         <li>
-          {/* <a href="/" className="py-2 hover:border-b-2 border-[#c470db]">
-            <Hashtag />
-            home
-          </a> */}
-
           <Link
             to="home"
             smooth={true}
@@ -38,16 +33,17 @@ const Navbar = () => {
             home
           </Link>
         </li>
-        {/* <li>
+        <li>
           <Link
             to="about"
             smooth={true}
             duration={500}
-            className="py-2 hover:border-b-2 border-[#D49902]"
+            className="py-2 hover:border-b-2 border-[#c470db]"
           >
-            About
+            <Hashtag />
+            about
           </Link>
-        </li> */}
+        </li>
         <li>
           <Link
             to="skills"
@@ -68,17 +64,6 @@ const Navbar = () => {
           >
             <Hashtag />
             work
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="contact"
-            smooth={true}
-            duration={500}
-            className="py-2 hover:border-b-2 border-[#c470db]"
-          >
-            <Hashtag />
-            contact
           </Link>
         </li>
         <li>
@@ -105,13 +90,15 @@ const Navbar = () => {
         <ul className="flex flex-col pt-16">
           <li className="py-6 text-4xl">
             <Link onClick={handleClick} to="home" smooth={true} duration={500}>
-              Home
+              <Hashtag />
+              home
             </Link>
           </li>
           <li className="py-6 text-4xl">
             {" "}
             <Link onClick={handleClick} to="about" smooth={true} duration={500}>
-              About
+              <Hashtag />
+              about
             </Link>
           </li>
           <li className="py-6 text-4xl">
@@ -122,30 +109,22 @@ const Navbar = () => {
               smooth={true}
               duration={500}
             >
-              Skills
+              <Hashtag />
+              skills
             </Link>
           </li>
           <li className="py-6 text-4xl">
             {" "}
             <Link onClick={handleClick} to="work" smooth={true} duration={500}>
-              Work
-            </Link>
-          </li>
-          <li className="py-6 text-4xl">
-            {" "}
-            <Link
-              onClick={handleClick}
-              to="contact"
-              smooth={true}
-              duration={500}
-            >
-              Contact
+              <Hashtag />
+              work
             </Link>
           </li>
           <li className="py-6 text-4xl">
             {" "}
             <Link onClick={handleClick} to="blog" smooth={true} duration={500}>
-              Blog
+              <Hashtag />
+              blog
             </Link>
           </li>
         </ul>
@@ -176,7 +155,7 @@ const Navbar = () => {
       {/* Social icons */}
       <div className="hidden lg:flex fixed flex-col left-0">
         <ul className="flex flex-col items-center">
-          <span class="block h-[700px] w-[1px] bg-[#FFFFFF] mx-2"></span>
+          <span class="block h-[700px] w-[1px] bg-gray-300 mx-2"></span>
           <li className="h-[60px] flex justify-between items-center bg-[#282c33]">
             <a
               className="flex justify-between items-center w-full text-gray-300"

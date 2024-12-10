@@ -31,7 +31,7 @@ const About = () => {
             <img
               src={Profile}
               alt="profile"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover border-b-2 border-[#c470db]"
             />
           </div>
         </div>
