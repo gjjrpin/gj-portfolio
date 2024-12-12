@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 import Hashtag from "./Hashtag";
@@ -11,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed z-50 w-screen max-w-[1100px] mx-auto bg-[#282c33] h-[80px] flex justify-between items-center text-gray-300">
+    <div className="fixed top-0 left-0 md:left-auto z-50 w-screen max-w-[1100px] mx-auto bg-[#282c33] h-[80px] flex justify-between items-center text-gray-300">
       <Link to="home" smooth={true} duration={500}>
         <img
           src={Logo}
@@ -21,7 +20,7 @@ const Navbar = () => {
         />
       </Link>
       {/* menu */}
-      <ul className="hidden md:flex">
+      <ul className="hidden lg:flex">
         <li>
           <Link
             to="home"
@@ -75,8 +74,8 @@ const Navbar = () => {
       </ul>
 
       {/* Hamburger */}
-      <div onClick={handleClick} className="md:hidden z-10 cursor-pointer">
-        {!nav ? <FaBars /> : <FaTimes />}
+      <div onClick={handleClick} className="lg:hidden z-10 cursor-pointer pr-4">
+        {!nav ? <FaBars size={28} /> : <FaTimes />}
       </div>
 
       {/* Mobile menu */}
@@ -144,11 +143,6 @@ const Navbar = () => {
               <HiOutlineMail size={32} />
             </a>
           </li>
-          <li className="p-0">
-            <a href="https://drive.google.com/file/d/1zaYvf5n7hoyBsOVlD_SZx4syfgKQLKnE/view?usp=share_link">
-              <BsFillPersonLinesFill size={32} />
-            </a>
-          </li>
         </ul>
       </div>
 
@@ -178,14 +172,6 @@ const Navbar = () => {
               href="mailto:gjjrpineda@gmail.com"
             >
               <HiOutlineMail size={30} />
-            </a>
-          </li>
-          <li className="h-[60px] flex justify-between items-center bg-[#282c33]">
-            <a
-              className="flex justify-between items-center w-full text-gray-300"
-              href="https://drive.google.com/file/d/1zaYvf5n7hoyBsOVlD_SZx4syfgKQLKnE/view?usp=share_link"
-            >
-              <BsFillPersonLinesFill size={30} />
             </a>
           </li>
         </ul>

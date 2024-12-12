@@ -9,6 +9,8 @@ export const data = [
     image: CommonGround,
     github: "https://github.com/gjjrpin/common-ground",
     live: "https://commonground.chat/",
+    technologies: "HTML JS",
+    description: "Common Ground Chat description",
   },
   {
     id: 2,
@@ -16,6 +18,8 @@ export const data = [
     image: Instock,
     github: "https://github.com/gjjrpin/instock-server",
     live: "",
+    technologies: "HTML JS",
+    description: "Instock description",
   },
   {
     id: 3,
@@ -23,5 +27,7 @@ export const data = [
     image: Brainflix,
     github: "https://github.com/gjjrpin/GJ-Pineda-brainflix",
     live: "",
+    technologies: "HTML JS",
+    description: "Brainflix description",
   },
 ];
