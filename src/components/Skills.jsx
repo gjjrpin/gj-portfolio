@@ -16,6 +16,11 @@ const Skills = () => {
         <div className="mt-16 flex flex-col md:flex-row">
           <div className="relative md:w-2/5 h-64">
             <img
+              className="absolute bottom-16 left-16"
+              src={Logooutline}
+              alt="logo"
+            />
+            <img
               className="absolute top-16 right-16"
               src={Logooutline}
               alt="logo"
@@ -24,22 +29,24 @@ const Skills = () => {
           <div className="md:w-1/2">
             <div className="grid md:grid-cols-2 gap-4">
               <div className="border">
-                <h3 className="border-b p-2 text-white">Languages</h3>
+                <h3 className="border-b p-2 text-white">
+                  Fraud Investigations
+                </h3>
+                <p className="p-2">Chainanalysis</p>
+                <p className="p-2">Credit card fraud</p>
+                <p className="p-2">First party fraud</p>
+                <p className="p-2">ATOs</p>
+              </div>
+              <div className="border">
+                <h3 className="border-b p-2 text-white">Software dev</h3>
                 <p className="p-2">Javascript</p>
-                <p className="p-2">Typescript</p>
-                <p className="p-2">Python</p>
+                <p className="p-2">React.js</p>
+                <p className="p-2">Node.js</p>
               </div>
               <div className="border">
                 <h3 className="border-b p-2 text-white">Database</h3>
                 <p className="p-2">MySQL</p>
-                <p className="p-2">MySQL</p>
-                <p className="p-2">MySQL</p>
-              </div>
-              <div className="border">
-                <h3 className="border-b p-2 text-white">Fraud</h3>
-                <p className="p-2">Cybersecurity</p>
-                <p className="p-2">Cybersecurity</p>
-                <p className="p-2">Cybersecurity</p>
+                <p className="p-2">Preset</p>
               </div>
             </div>
           </div>
