@@ -12,19 +12,19 @@ const Home = () => {
   return (
     <div name="home" className="w-full min-h-screen">
       {/* Container */}
-      <div className="min-h-screen h-full justify-center flex flex-col md:flex-row gap-y-6">
+      <div className="min-h-screen h-full justify-center flex flex-col pt-24 md:flex-row gap-y-6">
         <div className="flex flex-col justify-center">
           <div>
-            <span className="text-4xl sm:text-3xl text-gray-300">
+            <span className="text-[1.5rem] sm:text-3xl text-gray-300">
               I am a&nbsp;
             </span>
-            <span className="text-4xl sm:text-3xl text-[#c470db]">
+            <span className="text-[1.5rem] sm:text-3xl text-[#c470db]">
               Fraud Analyst&nbsp;
             </span>
-            <span className="text-4xl sm:text-3xl text-gray-300">
+            <span className="text-[1.5rem] sm:text-3xl text-gray-300">
               and&nbsp;
             </span>
-            <span className="text-4xl sm:text-3xl text-[#c470db]">
+            <span className="text-[1.5rem] sm:text-3xl text-[#c470db]">
               Cyber Security enthusiast
             </span>
           </div>
@@ -46,13 +46,14 @@ const Home = () => {
           <img
             className="absolute top-16 left-4 md:top-64 md:left-0 h-16 w-16 md:h-24 md:w-24"
             src={Logooutline}
+            alt="Logooutline"
           />
           <img
             className="border-b-2 border-[#c470db] h-full w-full md:h-auto md:w-auto"
             src={Hero}
             alt="Hero"
           />
-          <div className="border flex items-center mx-12 md:mx-22 gap-4 py-2 px-4">
+          <div className="justify-center border flex items-center mx-12 md:mx-22 gap-4 py-2 px-4">
             <a
               className="text-gray-300"
               href="https://drive.google.com/file/d/1zaYvf5n7hoyBsOVlD_SZx4syfgKQLKnE/view?usp=share_link"
