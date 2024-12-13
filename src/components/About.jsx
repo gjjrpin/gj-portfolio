@@ -1,5 +1,5 @@
 import React from "react";
-import Profile from "../assets/about-me.png";
+import Profile from "../assets/profile.png";
 import Hashtag from "./Hashtag";
 
 const About = () => {
@@ -28,8 +28,8 @@ const About = () => {
           <div className="flex items-center leading-loose">
             <p>
               Driven by a background in Software Development and a passion for
-              Cybersecurity, I’ve transitioned into a Senior Fraud Analyst role
-              where I tackle emerging threats with a tech-first approach.
+              Fraud Analytics, I’ve transitioned into a Senior Fraud Analyst
+              role where I tackle emerging threats with a tech-first approach.
               Staying ahead of advancements in AI and cybersecurity allows me to
               create innovative, human-centered strategies to detect and prevent
               fraud effectively.
