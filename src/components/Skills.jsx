@@ -1,24 +1,11 @@
 import React from "react";
 import Logooutline from "../assets/logo-outline.svg";
+import Dots from "../assets/dots.png";
 import Hashtag from "./Hashtag";
 
 const Skills = () => {
   return (
     <div name="skills" className="w-full h-screen text-gray-300">
-      <svg
-        width="52"
-        height="52"
-        viewBox="0 0 52 52"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fill-rule="evenodd"
-          clip-rule="evenodd"
-          d="M39 0H26V13H13H0V26V39V52H13H26V39H39H52V26V13V0H39ZM13 39H26V26H39V13H26V26H13V39Z"
-          fill="white"
-        />
-      </svg>
       {/* Container */}
       <div className="pt-52 flex flex-col justify-center w-full h-full">
         <div>
@@ -30,14 +17,14 @@ const Skills = () => {
         <div className="mt-16 flex flex-col md:flex-row">
           <div className="relative md:w-2/5 h-64">
             <img
-              className="absolute bottom-16 left-16"
+              className="absolute bottom-16 left-16 w-32"
               src={Logooutline}
               alt="logo"
             />
             <img
-              className="absolute top-16 right-16"
-              src={Logooutline}
-              alt="logo"
+              className="absolute top-16 right-16 w-16"
+              src={Dots}
+              alt="Dots"
             />
           </div>
           <div className="md:w-1/2">

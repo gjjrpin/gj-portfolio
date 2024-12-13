@@ -15,8 +15,8 @@ const Navbar = () => {
         <img
           src={Logo}
           alt="Logo"
-          style={{ width: "60px" }}
-          className=" cursor-pointer"
+          style={{ width: "32px" }}
+          className=" cursor-pointer m-4 md:m-0"
         />
       </Link>
       {/* menu */}

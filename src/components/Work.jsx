@@ -7,7 +7,7 @@ const Work = () => {
   const project = data;
   //setProject(data);
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300">
+    <div name="work" className="w-full md:h-screen text-gray-300 pt-52">
       <div className="pt-52 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline-flex items-center">
@@ -24,6 +24,7 @@ const Work = () => {
               <img
                 className="flex-1 md:flex-initial md:h-64"
                 src={item.image}
+                alt="lines"
               />
               <div className="p-2">{item.technologies}</div>
               <div className="border-t p-4 flex flex-col gap-4">

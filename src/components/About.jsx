@@ -4,7 +4,7 @@ import Hashtag from "./Hashtag";
 
 const About = () => {
   return (
-    <div name="about" className="w-full  text-gray-300">
+    <div name="about" className="w-full  text-gray-300 pt-52 sm:pt-0">
       <div className="flex justify-center">
         <figure className="text-gray-300 border p-4 md:p-8 mb-16 max-w-lg">
           <blockquote className="text-lg font-bold">
