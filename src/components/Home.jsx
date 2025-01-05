@@ -11,7 +11,7 @@ const Home = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div name="home" className="w-full min-h-screen pt-32 sm:pt-0">
+    <div id="home" name="home" className="w-full min-h-screen pt-32 sm:pt-0">
       {/* Container */}
       <div className="min-h-screen h-full justify-center sm:flex flex-col md:flex-row gap-y-6">
         <div className="flex flex-col justify-center">
@@ -43,7 +43,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="relative md:w-7/12 lg:flex flex-col justify-center">
+        <div className="relative md:w-7/12 lg:flex flex-col content-center justify-center">
           <img
             className="absolute top-16 left-4 md:top-64 md:left-0 h-16 w-16 md:h-24 md:w-24"
             src={Logooutline}

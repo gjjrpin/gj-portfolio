@@ -5,7 +5,7 @@ import Hashtag from "./Hashtag";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen text-gray-300">
+    <div id="skills" name="skills" className="w-full h-screen text-gray-300">
       {/* Container */}
       <div className="pt-52 flex flex-col justify-center w-full h-full">
         <div>
@@ -36,7 +36,7 @@ const Skills = () => {
                 <p className="p-2">Chainanalysis</p>
                 <p className="p-2">Credit card fraud</p>
                 <p className="p-2">First party fraud</p>
-                <p className="p-2">ATOs</p>
+                <p className="p-2">ATOs (account take overs)</p>
               </div>
               <div className="border">
                 <h3 className="border-b p-2 text-white">Software dev</h3>

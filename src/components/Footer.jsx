@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className="mt-44 mb-2">
       <h2 className="text-gray-300 text-center">
-        © Copyright 2024. Made by GJ
+        © Copyright 2025. Made by GJ
       </h2>
     </div>
   );

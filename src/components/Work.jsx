@@ -7,7 +7,11 @@ const Work = () => {
   const project = data;
   //setProject(data);
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 pt-52">
+    <div
+      id="work"
+      name="work"
+      className="w-full md:h-screen text-gray-300 pt-52"
+    >
       <div className="pt-52 flex flex-col justify-center w-full h-full">
         <div>
           <p className="text-4xl font-bold inline-flex items-center">

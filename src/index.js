@@ -3,7 +3,8 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import { BrowserRouter, Routes, Route } from "react-router";
-import Blog from "./Blog";
+import Blog from "./components/Blog";
+import BlogPost from "./components/Blogpost";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +13,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/blog" element={<Blog />} />
+        <Route exact path="/blog/:id" element={<BlogPost />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
