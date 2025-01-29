@@ -8,7 +8,7 @@ function BlogPost() {
   const { id } = useParams();
   const [blog, setBlog] = useState(mock_data[0]);
   useEffect(() => {
-    const currBlog = mock_data.find((i) => i.id == id);
+    const currBlog = mock_data.find((i) => i.id === id);
     setBlog(currBlog);
   }, [id]);
 
@@ -18,7 +18,7 @@ function BlogPost() {
         <Navbar />
         <div className="mt-32 bg-white rounded-lg py-16 px-2 md:px-32">
           <h1 className="text-5xl mb-8">{blog.title}</h1>
-          <div className="flex items-center justify-center bg-gray-400">
+          <div className="flex items-center justify-center bg-slate-200">
             <img
               src={blog.imageUrl}
               alt=""
