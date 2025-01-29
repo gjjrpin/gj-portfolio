@@ -7,14 +7,10 @@ const Work = () => {
   const project = data;
   //setProject(data);
   return (
-    <div
-      id="work"
-      name="work"
-      className="w-full md:h-screen text-gray-300 pt-52"
-    >
+    <div name="work" className="w-full md:h-screen text-gray-300 pt-52">
       <div className="pt-52 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold inline-flex items-center">
+          <p id="work" className="text-4xl font-bold inline-flex items-center">
             <Hashtag />
             work<span class="block w-32 h-[2px] bg-[#c470db] mx-2"></span>
           </p>
@@ -40,12 +36,6 @@ const Work = () => {
                     className="text-gray-300 border-2 px-4 py-2 border-[#c470db] hover:bg-[rgba(196,112,219,0.15)] hover:border-[#c470db]"
                   >
                     Github
-                  </a>
-                  <a
-                    href={item.live}
-                    className="text-gray-300 border-2 px-4 py-2 border-[#c470db] hover:bg-[rgba(196,112,219,0.15)] hover:border-[#c470db]"
-                  >
-                    Live
                   </a>
                 </div>
               </div>
