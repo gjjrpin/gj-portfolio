@@ -61,12 +61,14 @@ const Home = () => {
           />
           <div className="justify-center border flex items-center mx-12 md:mx-22 gap-4 py-2 ">
             <a
-              className="text-gray-300"
-              href="https://drive.google.com/file/d/1zaYvf5n7hoyBsOVlD_SZx4syfgKQLKnE/view?usp=share_link"
+              className="text-gray-300 flex gap-2"
+              target="_blank"
+              rel="noreferrer"
+              href="https://drive.google.com/file/d/1Kw_8Ow0BviCni7-0ysp7WZ6ywc5v2ZQY/view"
             >
               <BsFillPersonLinesFill size={30} />
+              <p className="text-gray-300">&lt;&lt;&lt; Click for resume</p>
             </a>
-            <p className="text-gray-300">&lt;&lt;&lt; Click for resume</p>
           </div>
         </div>
       </div>

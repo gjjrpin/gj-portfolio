@@ -32,6 +32,8 @@ const Work = () => {
                 <p>{item.description}</p>
                 <div className="flex gap-4">
                   <a
+                    target="_blank"
+                    rel="noreferrer"
                     href={item.github}
                     className="text-gray-300 border-2 px-4 py-2 border-[#c470db] hover:bg-[rgba(196,112,219,0.15)] hover:border-[#c470db]"
                   >
