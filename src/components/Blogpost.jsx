@@ -16,7 +16,7 @@ function BlogPost() {
     <div className="bg-[#282c33] h-screen">
       <div className="max-w-[1100px] mx-auto">
         <Navbar />
-        <div className="mt-32 bg-white rounded-lg py-16 px-2 md:px-32">
+        <div className="mt-32 bg-slate-300 rounded-lg py-16 px-2 md:px-32">
           <h1 className="text-5xl mb-8">{blog.title}</h1>
           <div className="flex items-center justify-center bg-slate-200">
             <img
