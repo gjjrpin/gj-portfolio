@@ -33,7 +33,7 @@ const Home = () => {
             I prevent and investigate fraud.
           </p>
           <div>
-            <Link onClick={handleClick} to="work" smooth={true} duration={500}>
+            <Link onClick={handleClick} to="work" smooth={true} duration={100}>
               <button className="text-gray-300 group border-2 px-6 py-3 my-2 flex items-center border-[#c470db] hover:bg-[rgba(196,112,219,0.15)] hover:border-[#c470db]">
                 View Work
                 <span className="group-hover:rotate-90 duration-300">
