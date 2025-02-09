@@ -61,10 +61,10 @@ const Home = () => {
           />
           <div className="justify-center border flex items-center mx-12 md:mx-22 gap-4 py-2 ">
             <a
-              className="text-gray-300 flex gap-2"
+              className="text-gray-300 flex gap-2 items-center"
               target="_blank"
               rel="noreferrer"
-              href="https://drive.google.com/file/d/1Kw_8Ow0BviCni7-0ysp7WZ6ywc5v2ZQY/view"
+              href="https://drive.google.com/file/d/1PGoK4VGEgXxp4u41vxa45pN4eBqW4M2t/view"
             >
               <BsFillPersonLinesFill size={30} />
               <p className="text-gray-300">&lt;&lt;&lt; Click for resume</p>
